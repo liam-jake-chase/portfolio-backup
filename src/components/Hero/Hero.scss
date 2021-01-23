@@ -1,0 +1,36 @@
+body, html {
+    background-color: #0f0f20;
+    color: white;
+}
+
+
+
+.project__card {
+    height: 25rem;
+    width: 23rem;
+    border-radius: 1rem;
+    border: solid 2px white;
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.project__layout {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    
+}
+.project__four {
+    background-image: url('../../bandsite.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__seven {
+    background-image: url('../../assets/Mealrocket.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
