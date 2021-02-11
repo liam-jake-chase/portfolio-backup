@@ -10,7 +10,8 @@ body, html {
     width: 23rem;
     border-radius: 1rem;
     border: solid 2px white;
-    margin-right: 2rem;
+    margin-right: 10rem;
+    margin-left: 5rem;
     margin-top: 5rem;
 }
 
@@ -21,6 +22,20 @@ body, html {
     margin-bottom: 5rem;
     
 }
+
+.project__one {
+    background-image: url('../../assets/muews.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__three {
+    background-image: url('../../assets/brainflixx.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .project__four {
     background-image: url('../../bandsite.jpg');
     background-repeat: no-repeat;
@@ -28,9 +43,17 @@ body, html {
     background-size: cover;
 }
 
-.project__seven {
+.project__five {
+    background-image: url('../../assets/travel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__six {
     background-image: url('../../assets/Mealrocket.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+

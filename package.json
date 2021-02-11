@@ -1,5 +1,6 @@
 {
   "name": "josh-portfolio",
+  "homepage": "https://josh-fusillo.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,7 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://josh-fusillo.github.io/josh-portfolio",
+  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

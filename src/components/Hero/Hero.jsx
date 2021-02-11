@@ -16,13 +16,12 @@ export default class Hero extends Component {
         };
         return (
             <div className="project__layout">
-                 <motion.div className="project__one project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>MEUWS</motion.div>
-                <motion.div className="project__two project__card" whileHover={{ scale: 1.25}} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>IN-STOCK</motion.div>
-                <motion.div className="project__three project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>BRAINFLIXX</motion.div>
+                <a href="https://josh-fusillo.github.io/josh-fusillo-capstone-muews/" className="card__link"><motion.div className="project__one project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}></motion.div></a>
+                {/* <motion.div className="project__two project__card" whileHover={{ scale: 1.25}} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>IN-STOCK</motion.div> */}
+                <a href="https://josh-fusillo.github.io/brainflixx/" className="card__link"><motion.div className="project__three project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}></motion.div></a>
                 <a href="https://josh-fusillo.github.io/Bandsite/" className="card__link"><motion.div className="project__four project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}></motion.div></a>
-                <motion.div className="project__five project__card" whileHover={{ scale: 1.25}} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>TRAVEL SITE</motion.div>
-                <motion.div className="project__six project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}>COFFEE SHOP</motion.div>
-                <a href="https://josh-fusillo.github.io/MealRocket/" className="card__link"><motion.div className="project__seven project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}></motion.div></a>
+                <a href="https://josh-fusillo.github.io/travel-site/" className="card__link"><motion.div className="project__five project__card" whileHover={{ scale: 1.25}} animate={{ scale: 1 }} transition={{ duration: 0.5 }}></motion.div></a>
+                <a href="https://josh-fusillo.github.io/MealRocket/" className="card__link"><motion.div className="project__six project__card" whileHover={{ scale: 1.25 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }}></motion.div></a>
             </div>
         )
     }
