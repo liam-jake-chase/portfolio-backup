@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2d930c56.chunk.css",
-    "main.js": "/portfolio/static/js/main.4fd710e7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4fd710e7.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.16c3d0b8.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.16c3d0b8.js.map",
-    "static/js/2.6fc3441f.chunk.js": "/portfolio/static/js/2.6fc3441f.chunk.js",
-    "static/js/2.6fc3441f.chunk.js.map": "/portfolio/static/js/2.6fc3441f.chunk.js.map",
-    "static/js/3.9cae299f.chunk.js": "/portfolio/static/js/3.9cae299f.chunk.js",
-    "static/js/3.9cae299f.chunk.js.map": "/portfolio/static/js/3.9cae299f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8b4276af.chunk.css",
+    "main.js": "/portfolio/static/js/main.36796924.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.36796924.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0ee0cf80.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0ee0cf80.js.map",
+    "static/js/2.fd5950ba.chunk.js": "/portfolio/static/js/2.fd5950ba.chunk.js",
+    "static/js/2.fd5950ba.chunk.js.map": "/portfolio/static/js/2.fd5950ba.chunk.js.map",
+    "static/js/3.f75d90e1.chunk.js": "/portfolio/static/js/3.f75d90e1.chunk.js",
+    "static/js/3.f75d90e1.chunk.js.map": "/portfolio/static/js/3.f75d90e1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.2d930c56.chunk.css.map": "/portfolio/static/css/main.2d930c56.chunk.css.map",
-    "static/js/2.6fc3441f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6fc3441f.chunk.js.LICENSE.txt",
+    "static/css/main.8b4276af.chunk.css.map": "/portfolio/static/css/main.8b4276af.chunk.css.map",
+    "static/js/2.fd5950ba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fd5950ba.chunk.js.LICENSE.txt",
     "static/media/Hero.scss": "/portfolio/static/media/travel.a9ddad92.png",
-    "static/media/Header.scss": "/portfolio/static/media/Skyfont-NonCommercial.d2151277.otf"
+    "static/media/Header.scss": "/portfolio/static/media/Skyfont-NonCommercial.d2151277.otf",
+    "static/media/About.scss": "/portfolio/static/media/profile.80a4cae4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.16c3d0b8.js",
-    "static/js/2.6fc3441f.chunk.js",
-    "static/css/main.2d930c56.chunk.css",
-    "static/js/main.4fd710e7.chunk.js"
+    "static/js/runtime-main.0ee0cf80.js",
+    "static/js/2.fd5950ba.chunk.js",
+    "static/css/main.8b4276af.chunk.css",
+    "static/js/main.36796924.chunk.js"
   ]
 }
