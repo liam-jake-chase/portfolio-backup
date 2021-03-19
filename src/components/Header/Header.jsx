@@ -9,7 +9,7 @@ export default function Header() {
         <nav className="nav__header">
           <h1 className="nav__logo">JF</h1>
           <div className="nav__right">
-            <Link to="/" className="nav__home nav__link">
+            <Link to="/portfolio" className="nav__home nav__link">
               HOME
             </Link>
             <Link to="/about" className="nav__about nav__link">
