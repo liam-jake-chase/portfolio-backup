@@ -18,6 +18,7 @@ export default class Hero extends Component {
         <div className="project">
           <div className="project__layout">
             <div className="project__container">
+              <div className="project__title">MUEWS</div>
               <a
                 href="https://josh-fusillo.github.io/josh-fusillo-capstone-muews/"
                 className="card__link"
@@ -37,6 +38,7 @@ export default class Hero extends Component {
               </a>
             </div>
             <div className="project__container">
+              <div className="project__title">BRAINFLIX</div>
               <a
                 href="https://josh-fusillo.github.io/brainflix/"
                 className="card__link"
@@ -56,6 +58,7 @@ export default class Hero extends Component {
               </a>
             </div>
             <div className="project__container">
+              <div className="project__title">BANDSITE</div>
               <a
                 href="https://josh-fusillo.github.io/Bandsite/"
                 className="card__link"
@@ -75,6 +78,7 @@ export default class Hero extends Component {
               </a>
             </div>
             <div className="project__container">
+              <div className="project__title">TRAVEL SITE</div>
               <a
                 href="https://josh-fusillo.github.io/travel-site/"
                 className="card__link"
@@ -94,6 +98,7 @@ export default class Hero extends Component {
               </a>
             </div>
             <div className="project__container">
+              <div className="project__title">MEAL ROCKET</div>
               <a
                 href="https://josh-fusillo.github.io/MealRocket/"
                 className="card__link"
