@@ -1,11 +1,29 @@
-body, html {
-    background-color: #0f0f20;
-    color: white;
+body,
+html {
+  background-color: #0f0f20;
+  color: white;
 }
 
+.project {
 
+  &__button {
+    color: white;
+    position: relative;
+    right: 2.5rem;
+    top: 2rem;
+    padding: 1rem;
+    border: solid white 3px;
+    border-radius: .5rem;
+    background-color: #111b7a;
+    z-index: 0;
+    
+  }
 
-.project__card {
+  &__button:hover {
+    background-color: #1717e6;
+  }
+  
+  &__card {
     height: 25rem;
     width: 23rem;
     border-radius: 1rem;
@@ -13,47 +31,54 @@ body, html {
     margin-right: 10rem;
     margin-left: 5rem;
     margin-top: 5rem;
-}
+    z-index: 2;
+  }
 
-.project__layout {
+  &__layout {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 5rem;
-    
+  }
+
+  &__one {
+    background-image: url("../../assets/muews.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  }
+
+  &__three {
+    background-image: url("../../assets/brainflixx.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  &__four {
+    background-image: url("../../assets/bandsite.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__five {
+    background-image: url("../../assets/travel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__six {
+    background-image: url("../../assets/Mealrocket.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
-.project__one {
-    background-image: url('../../assets/muews.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project__three {
-    background-image: url('../../assets/brainflixx.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.project__four {
-    background-image: url('../../bandsite.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project__five {
-    background-image: url('../../assets/travel.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project__six {
-    background-image: url('../../assets/Mealrocket.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+a {
+  text-decoration: none;
+  z-index: 0;
 }
 
