@@ -31,7 +31,7 @@ export default class Hero extends Component {
                 ></motion.div>
               </a>
               <a
-                href="https://github.com/josh-fusillo/josh-fusillo-capstone-muews"
+                href="https://github.com/josh-fusillo/josh-fusillo-capstone-muews/tree/main/client"
                 className="project__button"
               >
                 VIEW CODE
