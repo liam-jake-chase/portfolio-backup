@@ -476,6 +476,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border: solid #060061;
   
 }
 
@@ -10198,13 +10199,12 @@ header.masthead h1 {
 }
 
 .bottom-section {
-  border-top: #060061 solid;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
 .skills-section {
-  border-bottom: #060061 solid;
+  
   margin-bottom: 1rem;
 }
 
