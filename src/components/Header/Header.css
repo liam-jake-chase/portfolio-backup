@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Skyfont';
+  src: url("../../fonts/Skyfont-NonCommercial.otf") format("opentype");
+  font-style: normal;
+}
+
+.nav__logo {
+  margin-top: 0;
+  font-family: 'Skyfont';
+  color: white;
+  font-size: 3rem;
+  margin: auto 2rem;
+  background-color: #111b7a;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+}
+
+.nav__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0a0d29;
+  height: 7rem;
+}
+
+.nav__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+}
+
+.nav__link {
+  margin: auto 1rem;
+  text-decoration: none;
+  padding: 2rem 3rem;
+  background-color: #111b7a;
+  border-radius: 1rem;
+  color: white;
+}
+
+.nav__link:hover {
+  background-color: #1717e6;
+}
+/*# sourceMappingURL=Header.css.map */

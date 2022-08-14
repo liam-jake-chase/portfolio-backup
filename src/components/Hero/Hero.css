@@ -1,0 +1,94 @@
+body,
+html {
+  background-color: #0f0f20;
+  color: white;
+}
+
+.project__container {
+  border: dotted white 2px;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: #090a18;
+  margin-top: 4rem;
+}
+
+.project__title {
+  font-size: 1.5rem;
+}
+
+.project__button {
+  color: white;
+  position: relative;
+  top: 2rem;
+  padding: 1rem;
+  border: solid white 3px;
+  border-radius: .5rem;
+  background-color: #111b7a;
+  z-index: 0;
+}
+
+.project__button:hover {
+  background-color: #1717e6;
+}
+
+.project__card {
+  height: 19rem;
+  width: 16rem;
+  border-radius: 1rem;
+  border: solid 2px white;
+  margin-top: 5rem;
+  z-index: 2;
+}
+
+.project__layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.project__one {
+  background-image: url("../../assets/muews.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project__three {
+  background-image: url("../../assets/brainflixx.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project__four {
+  background-image: url("../../assets/bandsite.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project__five {
+  background-image: url("../../assets/travel.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project__six {
+  background-image: url("../../assets/Mealrocket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  z-index: 0;
+}
+/*# sourceMappingURL=Hero.css.map */

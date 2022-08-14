@@ -1,0 +1,10 @@
+.about__image {
+  background-image: url("../../assets/profile.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 15rem;
+  margin: auto;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=About.css.map */
