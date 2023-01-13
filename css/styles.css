@@ -41,6 +41,15 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.resume-image {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  width: 100%;
+  border-radius: .5rem;
+  border: grey solid .5px
+}
+
 *,
 *::before,
 *::after {
@@ -6175,8 +6184,25 @@ button.bg-danger:focus {
   background-color: #bd2130 !important;
 }
 
+.resume {
+  margin-top: 2rem;
+}
+
+.resume-download {
+  border: #060061 solid 2px;
+  border-radius: 5px;
+  color: #060061;
+  font-size: .85rem;
+  padding: 1rem;
+}
+
+.resume-download:hover {
+  color: lightblue
+}
+
 .bg-light {
   background-color: #f8f9fa !important;
+  border-radius: 5px;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6343,9 +6369,10 @@ button.bg-dark:focus {
 
 .d-block {
   display: block !important;
-  border: #060061 solid;
+  border: #060061 solid 2px;
   border-radius: 5px;
   color: #060061;
+  font-size: .85rem;
 }
 .d-block:hover {
   background-color: #292470;
