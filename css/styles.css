@@ -484,7 +484,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 25gitvh;
   border: solid #060061;
   
 }
@@ -562,31 +562,33 @@ pre code {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
+  width: 80%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 5px;
 }
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 80%;
+    
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 80%;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 80%;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 80%;
   }
 }
 .row {
@@ -618,7 +620,9 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  
 }
+
 
 .col {
   flex-basis: 0;
@@ -10243,4 +10247,10 @@ header.masthead h1 {
 .projects-section {
   margin-bottom: 2rem;
   
+}
+
+.portfolio-box {
+  margin-bottom: 5px;
+  margin-right: 3px;
+  border-radius: 1rem;
 }
