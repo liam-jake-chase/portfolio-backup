@@ -52,8 +52,8 @@
 
 @media (min-width: 320px) {
   .resume-image {
-    max-width: 100%;
-    max-height: 20%;
+    height: 1rem;
+    width: 1rem;
   }
 }
 
